@@ -1,4 +1,4 @@
-/* 🔄 Reset básico */
+/* Reset básico */
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   line-height: 1.6;
 }
 
-/* 🧢 Header con logo a la izquierda y texto centrado */
+/* Header con logo a la izquierda y texto centrado */
 header {
   background-color: #1e1e2f;
   color: #fff;
@@ -78,7 +78,7 @@ nav ul li a:hover {
   background-color: #555;
 }
 
-/* 🧱 Layout principal */
+/* Layout principal */
 .contenedor {
   display: flex;
   gap: 2rem;
@@ -87,13 +87,13 @@ nav ul li a:hover {
   align-items: flex-start;
 }
 
-/* 📄 Sección principal */
+/* Sección principal */
 .principal {
   flex: 1;
   min-width: 300px;
 }
 
-/* 🖼️ Portada */
+/* Portada */
 .portada img {
   width: 100%;
   max-height: 300px;
@@ -110,14 +110,14 @@ nav ul li a:hover {
   margin-bottom: 2rem;
 }
 
-/* 📰 Noticias */
+/* Noticias */
 .noticias {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-/* 🧾 Tarjetas */
+/* Tarjetas */
 .tarjeta {
   display: flex;
   align-items: center;
@@ -153,7 +153,7 @@ nav ul li a:hover {
 }
 
 
-/* 📚 Sidebar */
+/* Sidebar */
 .sidebar {
   width: 300px;
   background-color: #f9f9f9;
@@ -190,7 +190,7 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* 🧱 Footer */
+/* Footer */
 footer {
   background-color: #1e1e2f;
   color: #fff;
@@ -199,7 +199,7 @@ footer {
   margin-top: 2rem;
 }
 
-/* 📱 Responsive para pantallas pequeñas */
+/* Responsive para pantallas pequeñas */
 @media (max-width: 768px) {
   .cabecera {
     flex-direction: column;
@@ -288,32 +288,5 @@ footer {
 
 .btn-curso:hover {
   background-color: #005fa3;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .curso-card {
-    width: 100%;
-  }
-}
-
-.volver-inicio {
-  text-align: center;
-  margin-top: 2rem;
-}
-
-.btn-volver {
-  display: inline-block;
-  background-color: #002035;
-  color: #fff;
-  padding: 0.7rem 1.2rem;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-}
-
-.btn-volver:hover {
-  background-color: #003a5c;
 }
 
