@@ -16,12 +16,16 @@
     gtag('config', 'G-5FECW34HF6');
   </script>
 </head>
+
 <body>
   <header>
     <div class="cabecera">
-      <img src="img/logo-molinadevB.png" alt="Logo MolinaDev" class="logo" />
+      <a href="index.html">
+        <img src="img/logo-molinadevB.png" alt="Logo MolinaDev" class="logo" />
+      </a>
+
       <div class="texto-header">
-        <h2>Blog de Desarrollo Web</h2>
+        <h1>Blog de Desarrollo Web</h1>
         <p><strong>Noticias, recursos y tendencias para desarrolladores modernos</strong></p>
       </div>
     </div>
@@ -46,11 +50,33 @@
       <div class="portada">
         <img src="img/portada.jpg" alt="Imagen de desarrollo web" />
         <h2>Bienvenido al blog</h2>
-        <p><strong>Explora las últimas novedades en HTML, CSS, JavaScript, frameworks y herramientas modernas del
-            desarrollo web.</strong></p>
+        <p><strong>Explora las últimas novedades del desarrollo web: cursos, artículos y recursos
+            sobre HTML, CSS, JavaScript, frameworks modernos y las herramientas que están marcando
+            el futuro del sector.
+          </strong>
+        </p>
+
+        <h2>Nuestros Cursos</h2>
+        <div class="cursos-destacados">
+          <article class="curso-card">
+            <img src="img/curso-frontend.jpg" alt="Curso Frontend" />
+            <h3>Curso de Desarrollo Web Frontend</h3>
+            <p>Aprende HTML, CSS, JavaScript y frameworks modernos.</p>
+            <a href="curso_frontend.html" class="btn-curso">Más información</a>
+          </article>
+
+          <article class="curso-card">
+            <img src="img/curso-backend.jpg" alt="Curso Backend" />
+            <h3>Curso de Desarrollo Web Backend</h3>
+            <p>Domina PHP, Node.js, bases de datos y APIs REST.</p>
+            <a href="curso_backend.html" class="btn-curso">Más información</a>
+          </article>
+        </div>
+
       </div>
 
       <section class="noticias">
+        <h2>Artículos destacados</h2>
         <article class="tarjeta">
           <img src="img/noticia1.jpg" alt="JavaScript" />
           <div>
@@ -68,7 +94,7 @@
         <article class="tarjeta">
           <img src="img/noticia2.jpg" alt="Frameworks populares" />
           <div>
-            <h3>Frameworks más usados en 2025</h3>
+            <h3>Frameworks más usados en 2026</h3>
             <p>
               React, Vue y Svelte dominan el panorama. Mira el ranking completo en
               <a href="https://mastercodepro.com/top-5-frameworks-javascript-para-2025-cual-deberias-aprender/"
@@ -123,7 +149,7 @@
         <article class="tarjeta">
           <img src="img/noticia6.jpg" alt="Seguridad web" />
           <div>
-            <h3>Seguridad web en 2025</h3>
+            <h3>Seguridad web en 2026</h3>
             <p>
               HTTPS, CORS, CSP y más. Protege tus apps desde el diseño.
               <a href="https://developer.mozilla.org/es/docs/Web/Security" target="_blank" rel="noopener noreferrer">
@@ -136,7 +162,7 @@
         <article class="tarjeta">
           <img src="img/noticia7.jpg" alt="PHP backend" />
           <div>
-            <h3>PHP sigue fuerte en 2025</h3>
+            <h3>PHP sigue fuerte en 2026</h3>
             <p>
               Frameworks modernos y nuevas versiones lo mantienen vigente en el desarrollo web.
               <a href="https://keepcoding.io/blog/futuro-de-php-y-a-que-se-debe-su-popularidad/" target="_blank"
@@ -150,7 +176,7 @@
         <article class="tarjeta">
           <img src="img/noticia8.jpg" alt="Java backend" />
           <div>
-            <h3>Java y sus frameworks en 2025</h3>
+            <h3>Java y sus frameworks en 2026</h3>
             <p>
               Spring Boot, Hibernate y más siguen liderando el desarrollo empresarial.
               <a href="https://www.geeksforgeeks.org/blogs/top-java-frameworks/" target="_blank"
@@ -166,17 +192,16 @@
 
     <aside class="sidebar">
       <div class="bloque">
-        <h3>Artículos destacados</h3>
+        <h3>Otras noticias de interés</h3>
         <ul>
           <li>
-            <a href="https://www.appbuilder.dev/es/blog/impact-of-ai-on-software-development"
-              target="_blank" rel="noopener noreferrer">
+            <a href="https://www.appbuilder.dev/es/blog/impact-of-ai-on-software-development" target="_blank"
+              rel="noopener noreferrer">
               El impacto de la IA en el desarrollo de código
             </a>
           </li>
           <li>
-            <a href="https://nodejs.org/es/about/security-reporting" target="_blank"
-              rel="noopener noreferrer">
+            <a href="https://nodejs.org/es/about/security-reporting" target="_blank" rel="noopener noreferrer">
               Actualización de seguridad en Node.js
             </a>
           </li>
@@ -231,12 +256,12 @@
         <ul>
           <li>
             🗓️ <a href="https://keepcoding.io/blog/react-19-novedades/" target="_blank" rel="noopener noreferrer">
-              React 19: lanzamiento previsto en diciembre
+              React 19: Novedades clave
             </a>
           </li>
           <li>
             🎤 <a href="https://jsconf.com/" target="_blank" rel="noopener noreferrer">
-              JSConf EU: 15–17 enero 2026
+              JSConf EU: Conferencias para la comunidad JavaScript
             </a>
           </li>
           <li>
@@ -246,14 +271,6 @@
           </li>
         </ul>
 
-      </div>
-      <div class="bloque">
-        <h3>Cursos recomendados</h3>
-        <ul>
-          <li><a href="https://www.pensarcoding.com/" target="_blank" rel="noopener noreferrer">Pensar Coding</a></li>
-          <li><a href="https://todocodeacademy.com/" target="_blank" rel="noopener noreferrer">TodoCode</a></li>
-          <li><a href="https://www.udemy.com/" target="_blank" rel="noopener noreferrer">Udemy Web Development</a></li>
-        </ul>
       </div>
     </aside>
   </main>
